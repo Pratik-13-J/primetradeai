@@ -134,7 +134,7 @@ def main_menu():
         elif choice == "4":
             show_history()
         elif choice == "5":
-            console.print("[green]Goodbye![/green]")
+            console.print("[green]Exit![/green]")
             break
         else:
             console.print("[red]Invalid choice[/red]")
