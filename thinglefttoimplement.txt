@@ -1,0 +1,36 @@
+
+problems:
+limit order is got filled above the price set in the limit
+
+You should say:
+A) Some addons improvement in project:
+
+Paginate requests (Binance limit = 1000 candles per request)
+Loop using startTime and endTime
+Store in database (Postgres / Parquet)
+Use async requests for performance
+Next step (optional but powerful):
+
+👉 Auto-display balance after each trade
+👉 Add PnL summary
+👉 Add risk-based position sizing
+
+B) Some add to complete a real trading bot:
+
+Show how to calculate RSI, EMA, VWAP on this data
+Show how to stream live BTC price via WebSocket
+Show how to backtest on this data
+Help integrate this into your trading bot architecture
+
+
+C) Some additional Q/A for me to know?: 
+Show how to use OS environment variables (production style)
+Show how to securely deploy on VPS
+Show how to structure config for multiple environments (dev/test/prod)
+Help you simulate API keys if testnet gives issues
+How to paginate 1000+ candles properly
+How to fetch entire BTC history efficiently
+How to integrate this into your trading bot architecture
+How to backtest using this dataframe
+Save as Parquet instead of CSV (faster for ML)
+How to auto-format to proper OHLCV schema

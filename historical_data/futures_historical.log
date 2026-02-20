@@ -1,0 +1,4 @@
+2026-02-20 12:33:16,029 - INFO - Fetching FUTURES data: BTCUSDT, 1d, 1 Jan, 2025
+2026-02-20 12:33:17,003 - ERROR - Error: 7 columns passed, passed data had 12 columns
+2026-02-20 12:38:40,238 - INFO - Fetching FUTURES data: BTCUSDT, 1d, 1 Jan, 2025
+2026-02-20 12:38:41,519 - INFO - Futures data fetched successfully
